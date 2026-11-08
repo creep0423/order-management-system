@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "currency": "AUD",
+  "orders": [
+    {
+      "order_no": "PO-20251130-00072",
+      "order_date": "2025-11-30",
+      "status": "COMPLETED",
+      "company": "Example Health Pty Ltd",
+      "customer": {
+        "name": "Alex Example",
+        "phone": "0400000001",
+        "email": "customer1@example.invalid"
+      },
+      "shipping_address": {
+        "line1": "101 Example Street",
+        "suburb": "Exampleville",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "Australia"
+      },
+      "items": [
+        {
+          "sku": "TBAMET10",
+          "quantity": 3,
+          "tracking_group_id": "TRACK_1"
+        },
+        {
+          "sku": "TBAMET28",
+          "quantity": 1,
+          "tracking_group_id": "TRACK_1"
+        },
+        {
+          "sku": "TBOPAL28",
+          "quantity": 1,
+          "tracking_group_id": "TRACK_1"
+        },
+        {
+          "sku": "HARNIG",
+          "quantity": 4,
+          "tracking_group_id": "TRACK_1"
+        },
+        {
+          "sku": "LELCBD100",
+          "quantity": 6,
+          "tracking_group_id": "TRACK_1"
+        }
+      ]
+    },
+    {
+      "order_no": "PO-20251203-00046",
+      "order_date": "2025-12-03",
+      "status": "IN_TRANSIT",
+      "company": "Sample Wellness Pty Ltd",
+      "customer": {
+        "name": "Taylor Example",
+        "phone": "0400000002",
+        "email": "customer2@example.invalid"
+      },
+      "shipping_address": {
+        "line1": "202 Sample Avenue",
+        "suburb": "Demoville",
+        "state": "VIC",
+        "postcode": "3000",
+        "country": "Australia"
+      },
+      "items": [
+        {
+          "sku": "AURPUR10",
+          "quantity": 10,
+          "tracking_group_id": "TRACK_2"
+        },
+        {
+          "sku": "HALGEO15",
+          "quantity": 1,
+          "tracking_group_id": "TRACK_3"
+        },
+        {
+          "sku": "MCMW10",
+          "quantity": 2,
+          "tracking_group_id": "TRACK_3"
+        },
+        {
+          "sku": "MCBO30",
+          "quantity": 3,
+          "tracking_group_id": "TRACK_3"
+        }
+      ]
+    }
+  ]
+}

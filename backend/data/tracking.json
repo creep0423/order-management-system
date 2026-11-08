@@ -1,0 +1,14 @@
+{
+  "TRACK_1": {
+    "carrier": "StarTrack / Australia Post",
+    "tracking_number": "SYNTHETIC-TRACK-000001"
+  },
+  "TRACK_2": {
+    "carrier": "StarTrack / Australia Post",
+    "tracking_number": "SYNTHETIC-TRACK-000002"
+  },
+  "TRACK_3": {
+    "carrier": "TNT",
+    "tracking_number": "SYNTHETIC-TRACK-000003"
+  }
+}
